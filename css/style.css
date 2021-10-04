@@ -19,8 +19,6 @@
 
 /* <--- BODY ---> */
 
-
-
 .row{
     margin: 40px 0;
 }
@@ -34,6 +32,25 @@
     float: left;
     position: relative;
 }
+
+/* Immagini in background */
+.box-1 {
+    background-image: url(../img/1.webp);
+    background-position: center;
+    background-size: cover;
+    float: left;
+    width: calc(100% / 3 - (30px));
+    height: 400px;
+    position: relative;
+}
+
+
+.box-1:hover{
+    background-image: url(../img/1b.webp);
+}
+/* / Immagini in background */
+
+
 .box-text{
     width: calc(100% / 3 - (30px));
     float: left;
