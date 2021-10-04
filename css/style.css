@@ -41,13 +41,13 @@
 
 .front{
     width: 100%;
-    height: 100%;
+    height: 500px;
     object-fit: cover;
 }
 
 .back{
     width: 100%;
-    height: 100%;
+    height: 500px;
     object-fit: cover;
     display: none;
 }
@@ -80,10 +80,10 @@
 
 /* <--- DEBUG ---> */
 
-.debug .box{
+/* .debug .box{
     height: 500px;
     background-color: purple;
-}
+} */
 
 /* .debug .box-text{
     height: 60px;
